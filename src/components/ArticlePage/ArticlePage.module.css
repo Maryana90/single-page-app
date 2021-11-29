@@ -1,0 +1,71 @@
+.backgroundImage img {
+  position: absolute;
+  width: 100%;
+  max-height: 245px;
+  left: 0px;
+  top: 0px;
+}
+
+.articleBox {
+  position: absolute;
+  max-width: 1290px;
+  height: 1001px;
+  left: 75px;
+  right: 75px;
+  top: 150px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.articleTitle {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 29px;
+  top: 35px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #363636;
+}
+
+.article {
+  position: absolute;
+  max-width: 1140px;
+  height: 837px;
+  left: 75px;
+  right: 75px;
+  top: 114px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.article p:first-child {
+  margin-top: 0;
+}
+
+.backHomepage {
+  position: absolute;
+  min-width: 160px;
+  height: 24px;
+  left: 168px;
+  top: 1186px;
+}
+
+.backHomepage a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363636;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
